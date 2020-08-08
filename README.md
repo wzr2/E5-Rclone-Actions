@@ -6,7 +6,7 @@
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 ## 二、设置Rclone配置
 添加名为**RCLONE_CONFIG**的变量  
-值为Rclone的配置，需要你本地先生成配置，之后打开Rclone配置文件复制出OneDrive的配置  
+值为Rclone的配置，需要你本地先生成配置，之后打开Rclone配置文件复制出One Drive的配置  
 配置最前面的[od]需要改成[e5] ("od"是在用Rclone添加OneDrive时设置的)  
 ![](http://sennqm.iwater.pw/images/2020/07/14/notepad_jmSv145s4V.png)
 
