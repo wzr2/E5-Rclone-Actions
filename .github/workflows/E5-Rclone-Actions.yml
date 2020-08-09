@@ -39,6 +39,6 @@ jobs:
           rclone ls movie: > "rclone ls.log"
 
           rclone copy movie:S1 tongji:wzr/美好世界S1 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
-          echo "复制完毕"
+          echo "复制完毕了"
 
           
