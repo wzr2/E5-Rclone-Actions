@@ -38,7 +38,7 @@ jobs:
           rclone lsf movie: > "rclone lsf.log"
           rclone ls movie: > "rclone ls.log"
 
-          rclone copy gd:Torrent tongji:wzr/魔法使的新娘 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
+          rclone copy movie:魔法使的新娘 tongji:wzr/魔法使的新娘 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
           echo "复制完毕了"
 
           
