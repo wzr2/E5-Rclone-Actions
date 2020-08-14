@@ -32,7 +32,7 @@ jobs:
       - name: Rclone-Run
         run: |
           # Rclone-Run
-          rclone copy movie:昭和元禄落语心中第二季 tongji:wzr/昭和元禄落语心中第二季 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
+          rclone copy movie:乱步奇谭 tongji:wzr/乱步奇谭 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
           echo "复制完毕了"
 
           
