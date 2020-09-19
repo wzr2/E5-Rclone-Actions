@@ -32,7 +32,7 @@ jobs:
       - name: Rclone-Run
         run: |
           # Rclone-Run
-          rclone copy movie:om/出包王女 tongji:wzr/出包王女 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
+          rclone copy movie:寒蝉 tongji:wzr/寒蝉 --transfers=32 --checkers=32 --stats=5s --stats-one-line --stats-log-level NOTICE
         
           echo "复制完毕了"
 
